@@ -9,6 +9,8 @@ The tests contain some very huge arrays, so think about performance.
 """
 
 def find_uniq(arr):
-    for n in arr:
+    for n in set(arr):
         if arr.count(n) == 1:
             return n
+
+print(find_uniq([ 3, 3, 3, 3, 3, 3, 10, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 ]))
