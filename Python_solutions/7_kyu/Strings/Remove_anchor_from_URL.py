@@ -12,3 +12,6 @@ def remove_url_anchor(url):
         return url[:url.index("#")]
     except:
         return url
+
+def remove_url_anchor(url):
+    return url.split('#')[0]
