@@ -11,4 +11,4 @@ Examples
 """
 
 def is_anagram(test, original):
-    return sorted(list(test.lower())) == sorted(list(original.lower()))
+    return sorted(test.lower()) == sorted(original.lower())
