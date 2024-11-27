@@ -1,3 +1,4 @@
 # Codewars_solutions
 
-6kyu - 8kyu Python and SQL Codewars solutions
+5kyu - 8kyu Python solutions
+6kyu - 8kyu SQL solutions
