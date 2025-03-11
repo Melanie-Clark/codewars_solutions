@@ -1,5 +1,9 @@
 # Codewars_solutions
 
-5kyu - 8kyu Python solutions 
+![codewars](https://www.codewars.com/users/coder_mel/badges/large)
 
-6kyu - 8kyu SQL solutions
+This repository contains the following Codewars solutions:
+
+**Python:** 5kyu - 8kyu
+
+**SQL:** 6kyu - 8kyu
