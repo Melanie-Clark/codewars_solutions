@@ -16,5 +16,5 @@ NOTE: To keep it simple assume that the iser_id will be having varchar type
 SELECT 
     name,
     greeting, 
-    REPLACE(SUBSTRING(greeting, '#[0-9]+'), '#', '') AS user_id
+    SUBSTRING(greeting, '#([0-9]+)') AS user_id -- () captures data after #
 FROM greetings;
